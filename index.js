@@ -7,7 +7,7 @@ app.use(logger());
 
 // response
 app.use(function *() {
-    this.body = 'qwasderfasder!';
+    this.body = 'Добро пожаловать!';
 });
 
 app.listen(3000);
